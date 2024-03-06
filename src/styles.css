@@ -385,7 +385,7 @@ font-size:1.25rem;
     width:100%;
     text-transform: capitalize;
     background-color: #292524;
-
+    color: ghostwhite;
 
 }
 #cityname{
@@ -394,14 +394,14 @@ font-size:1.25rem;
     width:100%;
     text-transform: capitalize;
     background-color: #292524;
-
+    color: ghostwhite;
 }
 #agerange{
     font-size: 24px;
     max-width:400px;
     width:100%;
     background-color: #292524;
-
+    color: ghostwhite;
 }
 #plan{
     font-size: 24px;
@@ -426,7 +426,7 @@ background-color: #292524;
     zoom:1.5;
     font-size: 24px;
     background-color: #292524;
-
+    color: ghostwhite;
 
 }
 #apply2{
