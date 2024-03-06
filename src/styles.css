@@ -1,0 +1,446 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(web_back.jpg);
+    background-repeat:repeat;
+    background-size: 100%;
+    font-family:'open sans',sans-serif ;
+}
+
+#navbar {
+    padding: 5px;
+
+
+    margin: 0px 0px 55px 0px;
+    display: flex;
+
+
+
+}
+
+#gymlogo {
+    border-radius: 15px;
+
+
+    height: 100px;
+    width: 105px;
+    padding: 10px auto;
+    margin: 10px;
+
+
+}
+
+#namegym {
+
+
+
+
+    margin: 5px;
+    font-weight: bolder;
+    color: gold;
+    font-family:'open sans',sans-serif ;
+    font-size: 50px;
+
+    line-height: 2.1;
+
+
+
+
+}
+
+#gymintro {
+    margin-bottom: 55px;
+    width: 100%;
+    object-fit: cover;
+
+
+    height: 550px;
+
+
+
+
+}
+
+#about {
+
+    text-align: center;
+    font-family:'open sans',sans-serif ;
+    font-weight: bolder;
+    color: aliceblue;
+
+
+    line-height: 2.5;
+    font-size: 40px;
+
+    
+
+
+
+
+}
+
+#aboutbody {
+
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-bottom: 50px;
+
+
+
+}
+
+#sam {
+    background-image: url("https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#para {
+    color: gold;
+/* text-align: justify; */
+line-height: 1.5;
+    width: 50%;
+    padding-right: 12px;
+    font-family:'open sans',sans-serif ;
+    font-weight: bold;
+    font-size: 20px;
+
+
+
+
+
+
+
+
+}
+
+#aboutimage {
+
+
+    width: 50%;
+
+
+
+
+
+}
+
+#loc {
+    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 55px;
+}
+
+
+H2 {
+    padding-top: 12px;
+
+    text-align: center;
+    color: whitesmoke;
+    font-family:'open sans',sans-serif ;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+#list {
+
+    color: gold;
+
+    font-family:'open sans',sans-serif ;
+    font-size: 32px;
+
+    padding: 35px 35px 4px 35px;
+
+
+    text-align: center;
+
+
+
+
+}
+
+
+.li {
+
+    font-weight: bolder;
+    padding: 10px 0;
+
+
+
+
+
+
+
+}
+.li:hover{
+    color:white;
+  
+
+}
+
+#member {
+ 
+    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    margin:0 auto;
+   
+
+padding:0px 0px 15px 0px;
+  
+
+}
+
+.mem {
+    
+    color: gold;
+font-weight:bolder;
+font-family:'open sans',sans-serif ;
+    font-size: 32px;
+    text-align:center;
+    padding:5px auto;
+
+    margin:0 auto;
+
+}
+#app{
+    max-width:250px;
+    max-height: fit-content;
+    margin:0 auto;
+    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#apply{
+    
+    font-family:'open sans',sans-serif ;
+    font-size:35px;
+    color:gold;
+    padding:15px;
+    text-align:center;
+    font-weight:bolder;
+    margin-top:55px;
+    border:6px solid gold;
+border-radius:10px;
+text-decoration: none;
+ 
+    
+
+
+
+}
+
+#socialtable{
+    margin:0px auto;
+    padding-bottom: 55px;
+padding-top: 0px;
+max-width: 75%;
+}
+a {
+    color:gold;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color:aliceblue; 
+    text-decoration:none; 
+    cursor:pointer;
+    
+    
+      
+}
+.form{
+    margin-top:300px;
+
+}
+#followus{
+    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 55px;
+    
+}
+#social{
+      
+
+    color:gold ;
+font-weight:bolder;
+font-family:'open sans',sans-serif ;
+    font-size: 30px;
+    margin:0 auto;
+    padding:10px;
+    text-align:center;
+   
+}
+.socials{
+    display:inline;
+    padding:10px 105px 100px 105px;
+   
+}
+.socials:hover{
+    color:aliceblue; 
+    text-decoration:none; 
+    cursor:pointer;
+}
+#footer{
+    margin-top:55px;
+    padding:20px 20px 40px 20px;
+    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+    
+    
+}
+H3{
+    padding:auto;
+
+    text-align: LEFT;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+#contact{
+    padding: 2px;
+
+    text-align: LEFT;
+    color: gold;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left:auto;
+}
+#copyright{
+    text-align:center;
+    color:white;
+    font-family:'open sans',sans-serif ;
+
+}
+#memtable{
+    border:4px solid gold;
+    padding:5px;
+border-collapse: collapse;
+    margin:0 auto;
+    width:500px;
+
+}
+
+#memtable th{
+    border-bottom:4px solid gold;
+width:50%;
+padding:8px;
+
+background-color: black;
+
+
+}
+#memtable td{
+    border-bottom: 2px solid gold;
+    padding:4px;
+}
+
+#form{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: black;
+    background-position: center;
+    max-width: 50%;
+    margin:0 auto;
+
+}
+.form-items{
+    padding:10px;
+    color: gold;
+    font-weight:600;
+    font-family:'open sans',sans-serif ;
+font-size:1.25rem;
+
+
+
+}
+
+#full_name{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    text-transform: capitalize;
+    background-color: #292524;
+
+
+}
+#cityname{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    text-transform: capitalize;
+    background-color: #292524;
+
+}
+#agerange{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    background-color: #292524;
+
+}
+#plan{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    color: ghostwhite;
+    font-weight:600;
+    font-family:'open sans',sans-serif ;
+font-size:1.25rem;
+background-color: #292524;
+
+}
+#date{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    color: ghostwhite;
+    background-color: #292524;
+
+}
+#checkbox{
+    zoom:1.5;
+    font-size: 24px;
+    background-color: #292524;
+
+
+}
+#apply2{
+    font-family:'open sans',sans-serif ;
+    font-size:25px;
+    color:gold;
+    padding:12px;
+    width:33%;
+    background-color: #292524;
+
+    text-align:center;
+    font-weight:600;
+    margin-top:25px;
+    border:4px solid gold;
+border-radius:5px;
+text-decoration: none;
+}
