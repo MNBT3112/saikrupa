@@ -1,8 +1,4 @@
-html {
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
- }
+
 body {
     margin: 0;
     padding: 0;
@@ -255,7 +251,7 @@ text-decoration: none;
     margin:0px auto;
     padding-bottom: 55px;
 padding-top: 0px;
-max-width: 75%;
+max-width: 100%;
 }
 a {
     color:gold;
@@ -294,8 +290,12 @@ font-family:'open sans',sans-serif ;
    
 }
 .socials{
-    display:inline;
-    padding:10px 105px 100px 105px;
+    display:inline-flex;
+   padding:0 30%;
+margin-bottom:48px;
+
+   
+
    
 }
 .socials:hover{
@@ -389,7 +389,7 @@ font-size:1.25rem;
     width:100%;
     text-transform: capitalize;
     background-color: #292524;
-    color: ghostwhite;
+
 
 }
 #cityname{
@@ -398,14 +398,14 @@ font-size:1.25rem;
     width:100%;
     text-transform: capitalize;
     background-color: #292524;
-    color: ghostwhite;
+
 }
 #agerange{
     font-size: 24px;
     max-width:400px;
     width:100%;
     background-color: #292524;
-    color: ghostwhite;
+
 }
 #plan{
     font-size: 24px;
@@ -430,7 +430,7 @@ background-color: #292524;
     zoom:1.5;
     font-size: 24px;
     background-color: #292524;
-    color: ghostwhite;
+
 
 }
 #apply2{
@@ -439,8 +439,7 @@ background-color: #292524;
     color:gold;
     padding:12px;
     width:33%;
-    background-color: #292524;
-
+background-color: #292524;
     text-align:center;
     font-weight:600;
     margin-top:25px;
