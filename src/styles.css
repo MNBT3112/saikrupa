@@ -1093,10 +1093,11 @@ margin-bottom: 16px;
 
 
 #body2{
-   width:570px;
+   width:100%;
+   
    height:auto;
    zoom:auto;
-
+font-family: league spartan, sans-serif;
 
 
 
@@ -1109,8 +1110,9 @@ margin-bottom: 16px;
     text-align: center;
     background-color: black;
     background-position: center;
-    max-width: 50%;
-    margin:0 auto;
+    width:700px;
+
+    margin:0px auto;
 
 }
 .form-items{
@@ -1189,13 +1191,23 @@ background-color: #292524;
 
 
 }
+#apply2:hover{
+    cursor: pointer;
+    color:black;
+
+    font-weight: 800;
+background-color: gold;
+
+}
 #apply2{
     font-family:'open sans',sans-serif ;
     font-size:25px;
     color:gold;
     padding:12px;
-    width:50%;
+    width:33%;
+    height:75px;
     
+
 background-color: black;
 
     text-align:center;
