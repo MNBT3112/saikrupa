@@ -1,19 +1,26 @@
 
-body {
+body{
     margin: 0;
     padding: 0;
     background-image: url(web_back.jpg);
     background-repeat:repeat;
-    background-size: 100%;
-    font-family:'open sans',sans-serif ;
+    background-size:100%;
+    font-family:"league spartan", sans-serif;
+color:white;
+
+
+
 }
 
 #navbar {
     padding: 5px;
+display:flex;
+width:100%;
 
 
-    margin: 0px 0px 55px 0px;
-    display: flex;
+   
+ 
+
 
 
 
@@ -22,14 +29,15 @@ body {
 #gymlogo {
     border-radius: 15px;
 
-
+justify-content: flex-start;
     height: 100px;
-    width: 105px;
+    width: 100px;
     padding: 10px auto;
     margin: 10px;
 
 
 }
+
 
 #namegym {
 
@@ -37,10 +45,17 @@ body {
 
 
     margin: 5px;
-    font-weight: bolder;
-    color: gold;
-    font-family:'open sans',sans-serif ;
-    font-size: 50px;
+    font-weight: 900;
+
+    color: #FFDF00;
+    font-family:Bebas Neue,sans-serif;
+
+letter-spacing: 5px;
+
+
+
+
+    font-size: 55px;
 
     line-height: 2.1;
 
@@ -50,28 +65,47 @@ body {
 }
 
 #gymintro {
-    margin-bottom: 55px;
+    
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 
 
-    height: 550px;
+    height: 250px;
 
 
 
 
 }
+#row2{
+    font-size:18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:450px;
 
+font-weight: 500;
+   margin-top: 35px;
+   margin-left:auto;
+   margin-right: auto;
+ 
+
+
+
+
+}
 #about {
 
     text-align: center;
-    font-family:'open sans',sans-serif ;
-    font-weight: bolder;
-    color: aliceblue;
+    font-family:league spartan,sans serif;
+
+    font-weight: 700;
+
+    color: #FFDF00;
+
 
 
     line-height: 2.5;
-    font-size: 40px;
+    font-size: 35px;
 
     
 
@@ -80,69 +114,87 @@ body {
 
 }
 
+
 #aboutbody {
 
-    display: flex;
+  
     text-align: center;
+
     margin: 0 auto;
     padding: 10px;
+font-size:20px;
+font-family: roboto condensed, sans-serif;
 
-    max-width: 1000px;
-    max-height: 1000px;
-    margin-bottom: 50px;
+color:whitesmoke;
+
+
+font-size: 22PX;
+
+
+
+
+
+font-weight: 800;
+   
+
 
 
 
 }
 
 #sam {
-    background-image: url("https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg");
+   background-image: url("https://e0.pxfuel.com/wallpapers/344/921/desktop-wallpaper-fitness-gym-black.jpg");
+ 
+background-size:100% 100%;
+
+
+
+
+
+    width:100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    height:auto;
+/* word-spacing: 2px; */
+line-height: 35px;
+
+
+
+
+  
+
+
 }
 
-#image2 {
+
+
+#SAM2 {
     width: 100%;
-    height: 100%;
+height:auto;
+
+    
+
+border-radius: 10px;
+background-image: URL("https://st4.depositphotos.com/1000689/20432/i/450/depositphotos_204321026-stock-photo-businessman-in-suit-and-muscular.jpg");
     object-fit: cover;
-
-}
-
-#para {
-    color: gold;
-/* text-align: justify; */
-line-height: 1.5;
-    width: 50%;
-    padding-right: 12px;
-    font-family:'open sans',sans-serif ;
-    font-weight: bold;
-    font-size: 20px;
-
-
-
-
-
-
-
-
-}
-
-#aboutimage {
-
-
-    width: 50%;
-
-
-
-
-
-}
-
-#loc {
-    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 55px;
+
+
+margin-top: 55PX;
+margin-bottom: 55PX;
+}
+
+#para{
+    margin-top:200px;
+
+}
+#para_end{
+font-family: Bebas Neue,sans-serif;
+
+font-size: 36PX;
+font-weight: 700;
+word-spacing: 8px;
+margin-top: 35px;
+text-align: center;
 }
 
 
@@ -151,93 +203,74 @@ H2 {
 
     text-align: center;
     color: whitesmoke;
-    font-family:'open sans',sans-serif ;
-    font-weight: bold;
+    font-family:league spartan,sans-serif ;
+    font-weight: 800;
     font-size: 35px;
-    margin-bottom: 0;
-}
-
-#list {
-
-    color: gold;
-
-    font-family:'open sans',sans-serif ;
-    font-size: 32px;
-
-    padding: 35px 35px 4px 35px;
-
-
-    text-align: center;
-
-
+    margin-bottom: 0px;
+    color:#FFDF00;
 
 
 }
-
-
-.li {
-
-    font-weight: bolder;
-    padding: 10px 0;
-
-
-
-
-
-
+#INDEX{
+    width:100%;
+    height:250px;
+margin-bottom: 35px;
+color:whitesmoke;
+font-size: 27px;
+font-family: roboto condensed , sans-serif;
+font-weight: 500;
 
 }
-.li:hover{
-    color:white;
-  
-
+#index_index{
+    color:#FFDF00;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 6px;
 }
+#index_branches{
+    color:#FF8C00;
 
-#member {
- 
-    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-    margin:0 auto;
    
+   
+    margin-bottom: 6px;
+}
+#index_plans{
+    color:whitesmoke;
 
-padding:0px 0px 15px 0px;
+   
   
+    margin-bottom: 6px;
+}
+#index_form{
+    color:#00FF00;
 
+  
+   
+    margin-bottom: 6px;
 }
 
-.mem {
-    
-    color: gold;
-font-weight:bolder;
-font-family:'open sans',sans-serif ;
-    font-size: 32px;
-    text-align:center;
-    padding:5px auto;
-
-    margin:0 auto;
-
-}
 #app{
-    max-width:250px;
-    max-height: fit-content;
-    margin:0 auto;
-    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    width:250px;
+    height:auto;
+
+   background-color: black;
+    margin:0px auto;
+   
 
 }
 #apply{
     
-    font-family:'open sans',sans-serif ;
-    font-size:35px;
-    color:gold;
+    font-family:league spartan,sans-serif ;
+    font-size:40px;
+  
+
     padding:15px;
     text-align:center;
     font-weight:bolder;
     margin-top:55px;
-    border:6px solid gold;
+    border:6px solid #FFDF00;
+
+
 border-radius:10px;
 text-decoration: none;
  
@@ -247,119 +280,157 @@ text-decoration: none;
 
 }
 
-#socialtable{
-    margin:0px auto;
-    padding-bottom: 55px;
-padding-top: 0px;
-max-width: 100%;
-}
 a {
-    color:gold;
+    color:#FFDF00;
+
     text-decoration: none;
 }
+#apply:hover{
+   
 
-a:hover, a:focus {
-    color:aliceblue; 
+
+
+    font-weight: 800;
     text-decoration:none; 
     cursor:pointer;
-    
-    
-      
 }
-.form{
-    margin-top:300px;
 
-}
-#followus{
-    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
-   background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 55px;
-    
-}
-#social{
-      
 
-    color:gold ;
-font-weight:bolder;
-font-family:'open sans',sans-serif ;
-    font-size: 30px;
+
+#location_card{
+    
+    width:100%;
+    justify-content: center;
+    height:auto;
     margin:0 auto;
-    padding:10px;
-    text-align:center;
-   
-}
-.socials{
-    display:inline-flex;
-   padding:0 30%;
-margin-bottom:48px;
+display: flex;
+flex-direction: column;
 
-   
+}
+.loc_card{
+width:75%;
+margin:16px auto;
+background-image: url("https://cdn.wallpapersafari.com/86/5/uInU5A.jpg");
+background-size: contain;
 
-   
-}
-.socials:hover{
-    color:aliceblue; 
-    text-decoration:none; 
-    cursor:pointer;
-}
-#footer{
-    margin-top:55px;
-    padding:20px 20px 40px 20px;
-    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
-    background-repeat: no-repeat;
-     background-size: cover;
-    
-    
-}
-H3{
-    padding:auto;
+font-size: 30px;
+font-weight:600;
 
-    text-align: LEFT;
-    color: whitesmoke;
-    font-family: sans-serif;
-    font-weight: bold;
+
+height:auto;
+
+border: 2px #FFDF00 solid;
+font-family: roboto condensed;
+
+
+}
+.loc_card_heading{
+    font-size:35px;
+    font-family: league spartan, sans serif;
+    margin-bottom: 4px;
+    text-align: center;
+    padding:12px;
+    color:#FFDF00;
+    font-weight: 700;
+
+}
+.loc_card_data{
+    width:100%;
+    height:auto;
+text-align: center;
+
+color:whitesmoke;
+
+
+
+font-weight: 500;
+
+margin-bottom: 16px;
+
+
+}
+
+.fa {
+    padding: 8px;
     font-size: 25px;
-    margin-bottom: 3px;
-}
-#contact{
-    padding: 2px;
+    width: 50px;
+    text-align: center;
+    
+    text-decoration: none;
+    margin:8px 8px 35px 8px;
+    border-radius: 50%;
+    color: mix(blue, black, 75%); 
 
-    text-align: LEFT;
-    color: gold;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 0;
-    margin-left:auto;
+  }
+  .fa:hover {
+    opacity: 0.7;
 }
-#copyright{
-    text-align:center;
-    color:white;
-    font-family:'open sans',sans-serif ;
 
-}
-#memtable{
-    border:4px solid gold;
-    padding:5px;
-border-collapse: collapse;
-    margin:0 auto;
-    width:500px;
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left:16px;
 
 }
 
-#memtable th{
-    border-bottom:4px solid gold;
-width:50%;
-padding:8px;
-
-background-color: black;
-
-
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
-#memtable td{
-    border-bottom: 2px solid gold;
-    padding:4px;
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body2{
+   width:570px;
+   height:auto;
+   zoom:auto;
+
+
+
+
+
 }
 
 #form{
@@ -382,13 +453,25 @@ font-size:1.25rem;
 
 
 }
+#copyright{
+    text-align:center;
+    color:white;
+    width:100%;
+margin-top:35px;
+height:25px;
 
+position: absolute ;
+    background-color: black;
+    font-family:league spartan,sans-serif ;
+
+}
 #full_name{
     font-size: 24px;
     max-width:400px;
     width:100%;
     text-transform: capitalize;
     background-color: #292524;
+color:white;
 
 
 }
@@ -398,6 +481,7 @@ font-size:1.25rem;
     width:100%;
     text-transform: capitalize;
     background-color: #292524;
+    color:white;
 
 }
 #agerange{
@@ -405,6 +489,7 @@ font-size:1.25rem;
     max-width:400px;
     width:100%;
     background-color: #292524;
+    color:white;
 
 }
 #plan{
@@ -416,6 +501,7 @@ font-size:1.25rem;
     font-family:'open sans',sans-serif ;
 font-size:1.25rem;
 background-color: #292524;
+
 
 }
 #date{
@@ -438,12 +524,833 @@ background-color: #292524;
     font-size:25px;
     color:gold;
     padding:12px;
-    width:33%;
-background-color: #292524;
+    width:50%;
+    
+background-color: black;
+
     text-align:center;
     font-weight:600;
     margin-top:25px;
     border:4px solid gold;
 border-radius:5px;
 text-decoration: none;
+} 
+
+
+#memtable{
+    border:4px solid gold;
+    padding:5px;
+border-collapse: collapse;
+    margin:0 auto;
+    width:450PX;
+
+
+    
+    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
+    background-repeat: repeat;
+
+    background-size: contain;
+
+
+
+
+}
+
+#memtable th{
+    border-bottom:4px solid gold;
+width:50%;
+padding:8px;
+
+background-color: black;
+
+
+}
+#memtable td{
+    border-bottom: 2px solid gold;
+    padding:4px;
+}
+
+
+#member {
+ 
+    margin:0 auto;
+   
+
+padding:0px 0px 15px 0px;
+  
+
+}
+
+
+
+.footer{
+    background:#000;
+    padding:35px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    margin-top: 35px;
+    color:whitesmoke;
+
+
+   
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:1% 0%;
+    font-size: 18px;
+    
+
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+  
+    transition:0.5s;
+    }
+    
+    .footer #row2 a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+
+
+
+
+
+
+
+
+.mem {
+    
+    color: gold;
+font-weight:600;
+
+font-family:roboto condensed,sans-serif;
+
+    font-size: 36px;
+    text-align:center;
+    padding:8px auto;
+
+    margin:8px auto;
+    word-spacing: 2px;
+    
+
+}
+
+
+
+@media only screen and (min-width:580px){
+    body{
+    margin: 0;
+    padding: 0;
+    background-image: url(web_back.jpg);
+    background-repeat:repeat;
+    background-size:100%;
+    font-family:"league spartan", sans-serif;
+color:white;
+width:100%;
+height:auto;
+
+
+
+
+}
+
+#navbar {
+    padding: 5px;
+display:flex;
+width:100%;
+
+
+   
+ 
+
+
+
+
+}
+
+#gymlogo {
+    border-radius: 15px;
+
+justify-content: flex-start;
+    height: 100px;
+    width: 100px;
+    padding: 10px auto;
+    margin: 10px;
+
+
+}
+
+
+#namegym {
+
+
+
+
+    margin: 5px;
+    font-weight: 900;
+
+    color: #FFDF00;
+    font-family:Bebas Neue,sans-serif;
+
+letter-spacing: 5px;
+
+
+
+
+    font-size: 75px;
+
+    line-height: 2.1;
+
+
+
+
+}
+
+#gymintro {
+    
+    width: 100%;
+    object-fit: cover;
+
+
+
+    height: auto;
+
+
+
+
+
+}
+
+#about {
+
+    text-align: center;
+    font-family:league spartan,sans serif;
+
+    font-weight: 700;
+
+    color: #FFDF00;
+
+
+
+    line-height: 2.5;
+    font-size: 55px;
+
+    
+
+
+
+
+}
+
+
+#aboutbody {
+
+  
+    text-align: center;
+
+    margin: 0 auto;
+    padding: 10px;
+
+font-family: roboto condensed, sans-serif;
+
+color:whitesmoke;
+
+
+font-size: 32pX;
+
+
+
+
+
+font-weight: 800;
+   
+
+
+
+
+}
+
+#sam {
+   background-image: url("https://e0.pxfuel.com/wallpapers/344/921/desktop-wallpaper-fitness-gym-black.jpg");
+ 
+background-size: cover;
+height:auto;
+
+
+
+
+
+
+    width:100%;
+    background-repeat: no-repeat;
+    height:auto;
+/* word-spacing: 2px; */
+line-height: 55px;
+
+
+
+
+  
+
+
+}
+
+
+
+#SAM2 {
+    width: 100%;
+height:auto;
+
+
+
+
+    
+
+border-radius: 10px;
+background-image: URL("https://st4.depositphotos.com/1000689/20432/i/450/depositphotos_204321026-stock-photo-businessman-in-suit-and-muscular.jpg");
+ background-size: cover;
+
+    background-repeat: no-repeat;
+
+
+margin-top: 55PX;
+
+
+}
+#para{
+    margin-top:450px;
+    
+}
+
+#para_end{
+font-family: Bebas Neue,sans-serif;
+margin-top: 55px;
+font-size: 56PX;
+font-weight: 700;
+word-spacing: 12px;
+
+text-align: center;
+}
+
+
+H2 {
+    padding-top: 12px;
+
+    text-align: center;
+    color: whitesmoke;
+    font-family:league spartan,sans-serif ;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 0px;
+    color:#FFDF00;
+
+
+}
+#INDEX{
+    width:100%;
+    height:250px;
+margin-bottom: 55px;
+color:whitesmoke;
+font-size: 37px;
+font-family: roboto condensed , sans-serif;
+font-weight: 500;
+
+}
+#index_index{
+    color:#FFDF00;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 6px;
+}
+#index_branches{
+    color:#FF8C00;
+
+   
+   
+    margin-bottom: 6px;
+}
+#index_plans{
+    color:whitesmoke;
+
+   
+  
+    margin-bottom: 6px;
+}
+#index_form{
+    color:#00FF00;
+
+  
+   
+    margin-bottom: 6px;
+}
+
+#app{
+    width:300px;
+    height:auto;
+
+   background-color: black;
+    margin:0px auto;
+   
+
+}
+#apply{
+    
+    font-family:league spartan,sans-serif ;
+    font-size:50px;
+  
+
+    padding:20px;
+    text-align:center;
+    font-weight:bolder;
+    margin-top:55px;
+    border:6px solid #FFDF00;
+
+
+border-radius:10px;
+text-decoration: none;
+ 
+    
+
+
+
+}
+
+a {
+    color:#FFDF00;
+
+    text-decoration: none;
+}
+#apply:hover{
+   
+
+
+
+    font-weight: 800;
+    text-decoration:none; 
+    cursor:pointer;
+}
+
+
+
+#location_card{
+    
+    width:100%;
+    justify-content: center;
+    height:auto;
+    margin:0 auto;
+display: flex;
+flex-direction: row;
+
+}
+.loc_card{
+width:50%;
+
+margin-right:24px;
+
+background-image: url("https://cdn.wallpapersafari.com/86/5/uInU5A.jpg");
+background-size: contain;
+
+font-size: 30px;
+font-weight:600;
+
+
+height:auto;
+
+border: 2px #FFDF00 solid;
+font-family: roboto condensed;
+
+
+}
+.loc_card_heading{
+    font-size:35px;
+    font-family: league spartan, sans serif;
+    margin-bottom: 4px;
+    text-align: center;
+    padding:12px;
+    color:#FFDF00;
+    font-weight: 700;
+
+}
+.loc_card_data{
+    width:100%;
+    height:auto;
+text-align: center;
+
+color:whitesmoke;
+
+
+
+font-weight: 500;
+
+margin-bottom: 16px;
+
+
+}
+
+.fa {
+    padding: 14px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    
+    text-decoration: none;
+    margin:8px 8px 35px 8px;
+    border-radius: 50%;
+    color: mix(blue, black, 80%); 
+
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left:16px;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#body2{
+   width:570px;
+   height:auto;
+   zoom:auto;
+
+
+
+
+
+}
+
+#form{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: black;
+    background-position: center;
+    max-width: 50%;
+    margin:0 auto;
+
+}
+.form-items{
+    padding:10px;
+    color: gold;
+    font-weight:600;
+    font-family:'open sans',sans-serif ;
+font-size:1.25rem;
+
+
+
+}
+#copyright{
+    text-align:center;
+    color:white;
+    width:100%;
+margin-top:35px;
+height:25px;
+
+position: absolute ;
+    background-color: black;
+    font-family:league spartan,sans-serif ;
+
+}
+#full_name{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    text-transform: capitalize;
+    background-color: #292524;
+color:white;
+
+
+}
+#cityname{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    text-transform: capitalize;
+    background-color: #292524;
+    color:white;
+
+}
+#agerange{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    background-color: #292524;
+    color:white;
+
+}
+#plan{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    color: ghostwhite;
+    font-weight:600;
+    font-family:'open sans',sans-serif ;
+font-size:1.25rem;
+background-color: #292524;
+
+
+}
+#date{
+    font-size: 24px;
+    max-width:400px;
+    width:100%;
+    color: ghostwhite;
+    background-color: #292524;
+
+}
+#checkbox{
+    zoom:1.5;
+    font-size: 24px;
+    background-color: #292524;
+
+
+}
+#apply2{
+    font-family:'open sans',sans-serif ;
+    font-size:25px;
+    color:gold;
+    padding:12px;
+    width:50%;
+    
+background-color: black;
+
+    text-align:center;
+    font-weight:600;
+    margin-top:25px;
+    border:4px solid gold;
+border-radius:5px;
+text-decoration: none;
+} 
+
+
+#memtable{
+    border:4px solid gold;
+    padding:5px;
+border-collapse: collapse;
+    margin:0 auto;
+    width:550PX;
+
+
+    
+    background-image: url("https://t3.ftcdn.net/jpg/03/29/69/78/360_F_329697830_b9AxW59A12Pxw3cNONGt8tIIXmb70kiS.jpg");
+    background-repeat: repeat;
+
+    background-size: contain;
+
+
+
+
+}
+
+#memtable th{
+    border-bottom:4px solid gold;
+width:50%;
+padding:8px;
+
+background-color: black;
+
+
+}
+#memtable td{
+    border-bottom: 2px solid gold;
+    padding:4px;
+}
+
+
+#member {
+ 
+    margin:0 auto;
+   
+
+padding:0px 0px 15px 0px;
+  
+
+}
+
+
+
+.footer{
+    background:#000;
+    padding:35px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    margin-top: 35px;
+    color:whitesmoke;
+display:flex;
+flex-direction: column;
+justify-content: center;
+
+
+    }
+    #row2{
+        font-size:24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:650px;
+
+font-weight: 600;
+       margin-top: 45px;
+       margin-left:auto;
+       margin-right: auto;
+     
+
+
+
+
+    }
+    .footer .row{
+    width:100%;
+  
+    font-size: 24px;
+    
+
+    }
+ 
+    .footer .row a{
+    text-decoration:none;
+  
+    transition:0.5s;
+    }
+    
+    .footer #row2 a:hover{
+    color:#fff;
+    }
+    
+  
+    
+   
+    .footer .row a i{
+    font-size:2em;
+    
+    }
+    
+    
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+
+
+
+
+
+
+
+
+.mem {
+    
+    color: gold;
+font-weight:700;
+
+font-family:roboto condensed,sans-serif;
+
+    font-size: 40px;
+    text-align:center;
+    padding:8px auto;
+
+    margin:8px auto;
+    word-spacing: 2px;
+    
+
+}
+.row3{
+   margin-top: 100px;
+   margin-bottom: 0%;
+    font-size: 16px;
+}
 }
